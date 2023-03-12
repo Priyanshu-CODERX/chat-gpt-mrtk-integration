@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MRTK_GPT_Implementation.unity
+    guid: 2723c5738da81e7499b692affd21d2a6
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: cb80ecc9b0c900e4982c485e9b2d607c, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: cc9c7280ea855b046a81b4f41b16fd06, type: 2}
