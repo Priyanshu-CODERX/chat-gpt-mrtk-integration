@@ -22,7 +22,7 @@ public class GPTManager : MonoBehaviour
     private void Start()
     {
         chatHistory += aiIdentity;
-        openAIClient = new OpenAIClient(new OpenAIAuthentication("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"));
+        openAIClient = new OpenAIClient(new OpenAIAuthentication(""));
 
         promptEnter.onClick.AddListener(AskGPT);
     }
